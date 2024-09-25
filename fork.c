@@ -17,7 +17,8 @@ int main() {
 		execv("/bin/ls", arr);
 		perror("execl()");
     }*/
-	
+
+
     int pid2 = fork();
    	 
     if (pid2 == -1) {
